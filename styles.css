@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {font-size: 1em;}
+
+body {
+    background-color: white;
+    font-family:  "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #333;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, p {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 400;
+}
+
+strong {
+    font-weight: 300;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+
+.flex { display: flex }
+.flex__full { flex: 1 }
+.flex--spaced { justify-content: space-between }
+.flex--centered { justify-content: flex-center }
+.flex--aligned { align-items: center }
+
+.flat {
+    margin-bottom: 0 !important;
+}
+
+.name {
+    text-transform: uppercase;
+}
+
+.name span {
+    font-weight: 700;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background:  #09092a;
+    color: #FFFFFF;
+}
+
+.contact-details {
+    background: linear-gradient(#09092a,#050515);
+    color: #FFFFFF;
+}
+
+.contact-items {
+    display: flex;
+}
+
+.contact-container {
+    flex: 1;
+}
+
+.contact-details p {
+    padding-right: 16px;
+}
+
+.contact-details strong {
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: 0.8;
+}
