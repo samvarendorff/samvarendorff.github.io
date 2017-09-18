@@ -15,7 +15,7 @@ body {
     text-size-adjust: 100%; 
     -ms-text-size-adjust: 100%; 
     -moz-text-size-adjust: 100%; 
-    -webkit-text-size-adjust: 200%;
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -76,12 +76,11 @@ small, .font_small {font-size: 0.707em;}
 .header {
     padding-top: 16px;
     padding-bottom: 16px;
-    background:  #09092a;
+    background: linear-gradient(#09092a,#050515);
     color: #FFFFFF;
 }
 
 .contact-details {
-    background: linear-gradient(#09092a,#050515);
     color: #FFFFFF;
 }
 
