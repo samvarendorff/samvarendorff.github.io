@@ -61,6 +61,7 @@ small, .font_small {font-size: 0.707em;}
 
 .name {
     text-transform: uppercase;
+    padding-bottom: 20px;
 }
 
 .name span {
