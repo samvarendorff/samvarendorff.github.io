@@ -103,3 +103,35 @@ small, .font_small {font-size: 0.707em;}
     font-size: 12px;
     opacity: 0.8;
 }
+
+.position {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.items {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.objective-details {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+#left {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+
+#right {
+    overflow: hidden;
+}
+
+.professional-skills {
+    display: block;
+}
